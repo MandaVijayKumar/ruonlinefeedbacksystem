@@ -185,7 +185,7 @@ export default function FacultyReportsAdvanced() {
           <Grid item xs={4}>
             <Paper sx={{ p: 2 }}>
               <Typography variant="body2">Total Responses</Typography>
-              <Typography variant="h6">{totalResponses}</Typography>
+              <Typography variant="h6">{totalResponses/10}</Typography>
             </Paper>
           </Grid>
 
@@ -272,7 +272,7 @@ export default function FacultyReportsAdvanced() {
                             <Box>
                               <Typography variant="caption" display="block">
                                 Theory: {s.theoryAvg} ({getPercentage(s.theoryAvg)}%)
-                                {' '}| Responses: <b>{s.theoryResponses || 0}</b>
+                                {' '}| Responses: <b>{(s.theoryResponses || 0)/10}</b>
                               </Typography>
 
                               <LinearProgress
@@ -287,7 +287,7 @@ export default function FacultyReportsAdvanced() {
                             <Box>
                               <Typography variant="caption" display="block">
                                 Lab: {s.labAvg} ({getPercentage(s.labAvg)}%)
-                                {' '}| Responses: <b>{s.labResponses || 0}</b>
+                                {' '}| Responses: <b>{(s.labResponses || 0)/10}</b>
                               </Typography>
 
                               <LinearProgress
@@ -306,7 +306,7 @@ export default function FacultyReportsAdvanced() {
 
                     {/* RESPONSES */}
                     <TableCell align="center">
-                      <Typography fontWeight="bold">{r.responses}</Typography>
+                      <Typography fontWeight="bold">{r.responses/10}</Typography>
                       <Typography variant="caption">Total</Typography>
                     </TableCell>
 
