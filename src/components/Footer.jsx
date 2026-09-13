@@ -32,7 +32,7 @@ export default function Footer() {
             Contact Us
           </Typography>
           <Typography sx={{ mt: 1 }}>
-            <strong>Dr. M. Rajeswari</strong>
+            <strong>Dr. M. Vijay Kumar Naidu</strong>
           </Typography>
           <Typography>
             Assistant Professor
@@ -41,10 +41,10 @@ export default function Footer() {
             Department of Computer Science
           </Typography>
           <Typography sx={{ mt: 1 }}>
-            📞 Mobile: 9030160281
+            📞 Mobile: 8639780283
           </Typography>
           <Typography>
-            ✉️ Email: rajeswarirucs@gmail.com
+            ✉️ Email: mandavijaykumar40@gmail.com
           </Typography>
         </Grid>
 
