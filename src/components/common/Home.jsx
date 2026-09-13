@@ -45,7 +45,7 @@ export default function Home() {
             sx={{ fontSize: { xs: 20, sm: 26, md: 34 }, fontWeight: 'bold' }}
             gutterBottom
           >
-            Rayalaseema University, Kurnool
+            Rayalaseema University
           </Typography>
 
           <Typography
