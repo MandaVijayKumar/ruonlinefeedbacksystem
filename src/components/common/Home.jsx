@@ -10,8 +10,8 @@ export default function Home() {
 
   const leaders = [
     { img: vcImg, name: 'Prof. V. Venkata Basava Rao', title: "Hon'ble Vice Chancellor" },
-    { img: rectorImg, name: 'Prof. N.T.K. Naik', title: 'Rector' },
-    { img: registrarImg, name: 'Dr. B. Vijaya Kumar Naidu', title: 'Registrar' }
+    // { img: rectorImg, name: 'Prof. N.T.K. Naik', title: 'Rector' },
+    { img: registrarImg, name: 'Prof. B. Vijaya Kumar Naidu', title: 'Registrar' }
   ]
 
   return (
