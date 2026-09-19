@@ -134,20 +134,29 @@ export default function Home() {
           </Typography>
 
           <Box sx={{ mt: 2 }}>
-            {[
-              "Use your official hall ticket number for OTP authentication.",
-              "Select correct faculty, subject and feedback type.",
-              "Answer all questions honestly.",
-              "Comments are optional but helpful."
-            ].map((text, i) => (
-              <Typography
-                key={i}
-                sx={{ mb: 1, fontSize: { xs: 13, md: 15 } }}
-              >
-                • {text}
-              </Typography>
-            ))}
-          </Box>
+  {[
+    "Enter your official Hall Ticket Number.",
+    "Verify your identity using the OTP sent to your registered email address.",
+    "Select the correct Faculty Name.",
+    "Select the correct Subject.",
+    "Select the Feedback Type – Theory or Lab.",
+    "Read each question carefully and give your rating from 1 to 5.",
+    "Answer all questions honestly and fairly.",
+    "Comments or suggestions are optional.",
+    "Review your answers and click Submit Feedback."
+  ].map((text, i) => (
+    <Typography
+      key={i}
+      sx={{
+        mb: 1,
+        fontSize: { xs: 13, md: 15 },
+        lineHeight: 1.5
+      }}
+    >
+      <strong>{i + 1}.</strong> {text}
+    </Typography>
+  ))}
+</Box>
 
           {/* THEORY */}
           <Box sx={{ mt: 3 }}>
